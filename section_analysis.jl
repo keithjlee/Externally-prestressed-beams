@@ -26,10 +26,8 @@ high_strength = false
 ϵ_cu = 0.003 # Maximum compressive strain for Concrete
 ϵ_ce = 0.005 # Maximum tensile strain for Concrete :Obsolete
 
-
-
 # Steel Properties
-PTsteelᵣ= [5,0,0] #dia mm 
+PTsteelᵣ= [2., 2., 2.] #dia mm 
 PTsteel_area = pi .* PTsteelᵣ.^2 ./ 4
 
 # Postion of the vertical axis relative section's centroid
@@ -44,7 +42,7 @@ ecc   = [eTension, -eCompression, -eCompression] # mm
 # ................
 # ..x(2)...x(3)...
 # ................
-# ......x(1)......
+# ......x(1).....
 fpe = [-800, -0, -0] #MPa
 fpu = [1860, 1860, 1860] #MPa
 steel_modulus = 200000. #MPa
