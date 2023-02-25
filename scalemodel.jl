@@ -13,15 +13,15 @@ begin
     fc = 30. #MPa, N/mm²
 
     #breaking capacity of steel cables
-    FuAxial = 400 * 4.454 #N
+    FuAxial = 2900 * 4.454 #N
     FuMoment = 1200 * 4.454 #N
 end
 
 ## Failure mode: yielding of external tensioning anchors
 begin
-    fySteel = 350. #MPa
-    momentArm = 9.4 #mm, center of anchor to perpendicular edge of pixel
-    b = 27.8 #width of support edge, mm
+    fySteel = 250. #MPa very mild steel
+    momentArm = 12.7 #mm, center of anchor to perpendicular edge of pixel
+    b = 44.3 #width of support edge, mm
     tPlate = 3/16 * 25.4 #mm 
 end
 
