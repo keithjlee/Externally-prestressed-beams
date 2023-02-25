@@ -24,7 +24,7 @@ end
     γc: partial safety factor for the concrete without fibres;
     k : factor that takes into account the size effect
     d : effective depth of the cross-sectin [mm]
-    ρl: longitudinal reinforcement ratio, Area of the longitudinal steel / gross area of concrete
+    ρl: longitudinal reinforcement ratio, Area of the  longitudinal steel / gross area of concrete
     PTsteel_area is Asl in the code : the longitudinal steel, (non-prestressed + prestressed)
     fFtuk : characteristic value of the ultimate residual tensile strength for Fiber-reinforced Concrete
         when considering wᵤ = 1.5mm, accoring to eq 5.6-6
