@@ -55,12 +55,15 @@ RsteelAxial = axialFactor * FuAxial * 3 #total post tension force on concrete [N
 Rtotal = 0.65 * 0.8 * (Rconcrete - RsteelAxial) #total factored resistance [N]
 
 ##Deviator design
+<<<<<<< refs/remotes/Upstream/main
 hdev = 87.2
 wdev = 50.8
 
 Moverturn = 2Frod * cos(θ) * hdev / 2
 Poverturn = Moverturn * 6 / wdev
 
+=======
+>>>>>>> .
 ### failure mode 1: slip critical
 tensioning = collect(range(0., 2Frod, length = 300))
 Fvert = tensioning .* sin(θ)
@@ -69,6 +72,7 @@ Fhor = tensioning .* cos(θ)
 prop = collect(0:0.05:0.2)
 μs = collect(0.4:0.05:0.7)
 
+<<<<<<< refs/remotes/Upstream/main
 Ffriction = [f * μ for f in Fvert, μ in μs]
 
 using GLMakie, kjlMakie
@@ -114,3 +118,7 @@ Pcenter = 6e3 #N
 Lplate = 1000. #mm
 
 Δmax = Pcenter * Lplate^3 / 48 / Eal / Itot
+=======
+using GLMakie, kjlMakie
+
+>>>>>>> .
