@@ -28,13 +28,13 @@ end
 begin
     Splate = b * tPlate^2 / 6 #section modulus, mm³
     Mrplate = Splate * fySteel #yielding moment, Nmm
-    Frod = Mrplate / momentArm #Force at anchor, N
+    FrodHorizontal = Mrplate / momentArm #Force at anchor, N
 end
 
 ## Global demand
 #Angle of strand + force in horizontal strand region [rad, N]
 θ = atan(e/Lseg)
-FrodHorizontal = Frod * cos(θ)
+Frod = FrodHorizontal / cos(θ)
 
 #Required external load [N]
 Preq = 2Frod * sin(θ)
