@@ -1,44 +1,52 @@
 using LinearAlgebra
 include("utilities/utilityFunctions.jl")
 include("utilities/resistanceCalculations.jl")
+using CSV
 
-# using Plots
-# x = range(0,10000,length=100)
-# y = get_fps.(x,1000.,0.02,1000)
-# plot(x,y)
+data = CSV.File("data/section1depthchart.csv"; header = false)
+
+
+Asingle = 6179 #mm, single piece
+Asection = Asingle * 3
+sectionCentroid = -.298737
+sectionH = 9 * 25.4
+L = 4.81 * 25.4
+
+compressionDepth = data.Column1 .* 25.4
+compressionArea = data.Column2 .* 25.4^2
+compressionCentroid = data.Column3 .* 25.4 .- sectionCentroid
+
 
 # inputs from Grasshopper
 # Probably going to use JSON, (Dictionary mapping?)
 # Concrete Properties
-fc′= 56 #MPa
+fc′= 35 #MPa
 ρ_concrete = 23 #kg/m³
 high_strength = false
 ϵ_cu = 0.003 # Maximum compressive strain for Concrete
 ϵ_ce = 0.005 # Maximum tensile strain for Concrete :Obsolete
 
-####half-scale model
-A_l = 6179 #mm, single piece
-
 # Steel Properties
-# use tuple for mutiple rods
-PTsteelᵣ= [9,0,0] #dia mm  #dummy, depend on the actual size of the Post tension steel.
+PTsteelᵣ= [2., 2., 2.] #dia mm 
 PTsteel_area = pi .* PTsteelᵣ.^2 ./ 4
 
 # Postion of the vertical axis relative section's centroid
 # 1.2 Changes PTpos to ecc, from the "Eccentricity"
-# aka e : eccentricity [ratio]
-ecc   = [80., -5., -5.] # mm # down + , up -
+x = 0.75 # proportion of leg length
+eTension = L * x
+eCompression = L * x * sind(30)
+
+ecc   = [eTension, -eCompression, -eCompression] # mm 
 # "Should" be symmetrical such that e2 = e3 = e1*cos60
 # Indexing
 # ................
 # ..x(2)...x(3)...
 # ................
-# ......x(1)......
-fpe = [800, 0, 0] #MPa #These is post tension stress in the steels -> positive.
-fpu = [1860, 1860, 1860] #MPa #ultimate stress
-steel_modulus = 200000 #MPa
-Force_steel_each = fpe .* PTsteel_area ./ 1000 #[kN] #positive for the steels
-# Force_steel_each will be + as tension in steel, but will "compress" the concrete section
+# ......x(1).....
+fpe = [-800, -0, -0] #MPa
+fpu = [1860, 1860, 1860] #MPa
+steel_modulus = 200000. #MPa
+Force_steel_each = fpe .* PTsteel_area ./ 1000 #[kN]
 
 # load detail
 begin
