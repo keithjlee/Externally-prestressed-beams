@@ -1,5 +1,5 @@
-include("utilities/utilityFunctions.jl")
-include("utilities/resistanceCalculations.jl")
+include("../utilities/utilityFunctions.jl")
+include("../utilities/resistanceCalculations.jl")
 
 #initial data
 begin
@@ -13,7 +13,8 @@ begin
     fc = 30. #MPa, N/mm²
 
     #breaking capacity of steel cables
-    FuAxial = 2900 * 4.454 #N
+    # FuAxial = 2900 * 4.454 #N
+    FuAxial = (1/4)^2 / 4 * pi * 0.75 * 60e3 * 4.454 # Area * thread reduction factor (0.75) * strength (60ksi) → convert to N
     FuMoment = 1200 * 4.454 #N
 end
 
@@ -49,6 +50,7 @@ Fconcrete = 2Frod * cos(θ)
 #Pure compression resistance
 Rconcrete = 0.85 * fc * Atotal
 
+
 #Prestress factor
 axialFactor = 0.5
 RsteelAxial = axialFactor * FuAxial * 3 #total post tension force on concrete [N]
@@ -81,6 +83,11 @@ prop = collect(0:0.05:0.2)
 <<<<<<< refs/remotes/Upstream/main
 <<<<<<< refs/remotes/Upstream/main
 Ffriction = [f * μ for f in Fvert, μ in μs]
+
+
+@show Preq
+@show Fconcrete
+@show Frod
 
 using GLMakie, kjlMakie
 
