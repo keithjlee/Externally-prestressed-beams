@@ -2,6 +2,7 @@
 
 julia_version = "1.8.5"
 manifest_format = "2.0"
+<<<<<<< HEAD
 <<<<<<< refs/remotes/Upstream/main
 project_hash = "e83bc255c27f07e04c11cbf6937678d80713b1c7"
 
@@ -30,6 +31,9 @@ version = "0.4.1"
 =======
 project_hash = "99ed609db1267d839dabe61a7ad1fb60dd5f05fa"
 >>>>>>> begin scale model analysis
+=======
+project_hash = "99ed609db1267d839dabe61a7ad1fb60dd5f05fa"
+>>>>>>> ScaleAnalysis
 
 [[deps.ArgTools]]
 uuid = "0dad84c5-d112-42e6-8d28-ef12dabb789f"
@@ -64,6 +68,7 @@ git-tree-sha1 = "43b1a4a8f797c1cddadf60499a8a077d4af2cd2d"
 uuid = "d1d4a3ce-64b1-5f1a-9ba4-7e7e69966f35"
 version = "0.1.7"
 
+<<<<<<< HEAD
 <<<<<<< refs/remotes/Upstream/main
 [[deps.Bzip2_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
@@ -81,12 +86,15 @@ uuid = "8bf52ea8-c179-5cab-976a-9e18b702a9bc"
 
 =======
 >>>>>>> begin scale model analysis
+=======
+>>>>>>> ScaleAnalysis
 [[deps.CSV]]
 deps = ["CodecZlib", "Dates", "FilePathsBase", "InlineStrings", "Mmap", "Parsers", "PooledArrays", "SentinelArrays", "SnoopPrecompile", "Tables", "Unicode", "WeakRefStrings", "WorkerUtilities"]
 git-tree-sha1 = "c700cce799b51c9045473de751e9319bdd1c6e94"
 uuid = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 version = "0.10.9"
 
+<<<<<<< HEAD
 <<<<<<< refs/remotes/Upstream/main
 [[deps.Cairo_jll]]
 deps = ["Artifacts", "Bzip2_jll", "CompilerSupportLibraries_jll", "Fontconfig_jll", "FreeType2_jll", "Glib_jll", "JLLWrappers", "LZO_jll", "Libdl", "Pixman_jll", "Pkg", "Xorg_libXext_jll", "Xorg_libXrender_jll", "Zlib_jll", "libpng_jll"]
@@ -114,12 +122,15 @@ version = "0.1.6"
 
 =======
 >>>>>>> begin scale model analysis
+=======
+>>>>>>> ScaleAnalysis
 [[deps.CodecZlib]]
 deps = ["TranscodingStreams", "Zlib_jll"]
 git-tree-sha1 = "ded953804d019afa9a3f98981d99b33e3db7b6da"
 uuid = "944b1d66-785c-5afd-91f1-9de20f533193"
 version = "0.7.0"
 
+<<<<<<< HEAD
 <<<<<<< refs/remotes/Upstream/main
 [[deps.ColorBrewer]]
 deps = ["Colors", "JSON", "Test"]
@@ -157,18 +168,24 @@ git-tree-sha1 = "7a60c856b9fa189eb34f5f8a6f6b5529b7942957"
 uuid = "34da2185-b29b-5c13-b0c7-acf172513d20"
 version = "4.6.1"
 =======
+=======
+>>>>>>> ScaleAnalysis
 [[deps.Compat]]
 deps = ["Dates", "LinearAlgebra", "UUIDs"]
 git-tree-sha1 = "00a2cccc7f098ff3b66806862d275ca3db9e6e5a"
 uuid = "34da2185-b29b-5c13-b0c7-acf172513d20"
 version = "4.5.0"
+<<<<<<< HEAD
 >>>>>>> begin scale model analysis
+=======
+>>>>>>> ScaleAnalysis
 
 [[deps.CompilerSupportLibraries_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
 version = "1.0.1+0"
 
+<<<<<<< HEAD
 <<<<<<< refs/remotes/Upstream/main
 [[deps.ConstructionBase]]
 deps = ["LinearAlgebra"]
@@ -188,11 +205,14 @@ version = "4.1.1"
 
 =======
 >>>>>>> begin scale model analysis
+=======
+>>>>>>> ScaleAnalysis
 [[deps.DataAPI]]
 git-tree-sha1 = "e8119c1a33d267e16108be441a287a6981ba1630"
 uuid = "9a962f9c-6df0-11e9-0e5d-c546b8b5ee8a"
 version = "1.14.0"
 
+<<<<<<< HEAD
 <<<<<<< refs/remotes/Upstream/main
 [[deps.DataFrames]]
 deps = ["Compat", "DataAPI", "Future", "InlineStrings", "InvertedIndices", "IteratorInterfaceExtensions", "LinearAlgebra", "Markdown", "Missings", "PooledArrays", "PrettyTables", "Printf", "REPL", "Random", "Reexport", "SentinelArrays", "SnoopPrecompile", "SortingAlgorithms", "Statistics", "TableTraits", "Tables", "Unicode"]
@@ -208,6 +228,8 @@ version = "0.18.13"
 
 =======
 >>>>>>> begin scale model analysis
+=======
+>>>>>>> ScaleAnalysis
 [[deps.DataValueInterfaces]]
 git-tree-sha1 = "bfc1187b79289637fa0ef6d4436ebdfe6905cbd6"
 uuid = "e2d170a0-9d28-54be-80f0-106bbe20a464"
@@ -248,6 +270,7 @@ deps = ["ArgTools", "FileWatching", "LibCURL", "NetworkOptions"]
 uuid = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
 version = "1.6.0"
 
+<<<<<<< HEAD
 <<<<<<< refs/remotes/Upstream/main
 [[deps.DualNumbers]]
 deps = ["Calculus", "NaNMath", "SpecialFunctions"]
@@ -304,6 +327,8 @@ version = "1.16.0"
 
 =======
 >>>>>>> begin scale model analysis
+=======
+>>>>>>> ScaleAnalysis
 [[deps.FilePathsBase]]
 deps = ["Compat", "Dates", "Mmap", "Printf", "Test", "UUIDs"]
 git-tree-sha1 = "e27c4ebe80e8699540f2d6c805cc12203b614f12"
@@ -313,6 +338,7 @@ version = "0.9.20"
 [[deps.FileWatching]]
 uuid = "7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee"
 
+<<<<<<< HEAD
 <<<<<<< refs/remotes/Upstream/main
 [[deps.FillArrays]]
 deps = ["LinearAlgebra", "Random", "SparseArrays", "Statistics"]
@@ -364,10 +390,13 @@ version = "1.0.10+0"
 
 =======
 >>>>>>> begin scale model analysis
+=======
+>>>>>>> ScaleAnalysis
 [[deps.Future]]
 deps = ["Random"]
 uuid = "9fa8497b-333b-5362-9e8d-4d0656e87820"
 
+<<<<<<< HEAD
 <<<<<<< refs/remotes/Upstream/main
 [[deps.GLFW_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Libglvnd_jll", "Pkg", "Xorg_libXcursor_jll", "Xorg_libXi_jll", "Xorg_libXinerama_jll", "Xorg_libXrandr_jll"]
@@ -442,6 +471,8 @@ version = "1.0.2"
 
 =======
 >>>>>>> begin scale model analysis
+=======
+>>>>>>> ScaleAnalysis
 [[deps.HTTP]]
 deps = ["Base64", "CodecZlib", "Dates", "IniFile", "Logging", "LoggingExtras", "MbedTLS", "NetworkOptions", "OpenSSL", "Random", "SimpleBufferStream", "Sockets", "URIs", "UUIDs"]
 git-tree-sha1 = "eb5aa5e3b500e191763d35198f859e4b40fff4a6"
@@ -513,6 +544,7 @@ version = "0.5.1"
 
 [[deps.InlineStrings]]
 deps = ["Parsers"]
+<<<<<<< HEAD
 <<<<<<< refs/remotes/Upstream/main
 git-tree-sha1 = "9cc2baf75c6d09f9da536ddf58eb2f29dedaf461"
 uuid = "842dd82b-1e85-43dc-bf29-5d0ee9dffc48"
@@ -528,11 +560,17 @@ git-tree-sha1 = "0cf92ec945125946352f3d46c96976ab972bde6f"
 uuid = "842dd82b-1e85-43dc-bf29-5d0ee9dffc48"
 version = "1.3.2"
 >>>>>>> begin scale model analysis
+=======
+git-tree-sha1 = "0cf92ec945125946352f3d46c96976ab972bde6f"
+uuid = "842dd82b-1e85-43dc-bf29-5d0ee9dffc48"
+version = "1.3.2"
+>>>>>>> ScaleAnalysis
 
 [[deps.InteractiveUtils]]
 deps = ["Markdown"]
 uuid = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 
+<<<<<<< HEAD
 <<<<<<< refs/remotes/Upstream/main
 [[deps.Interpolations]]
 deps = ["Adapt", "AxisAlgorithms", "ChainRulesCore", "LinearAlgebra", "OffsetArrays", "Random", "Ratios", "Requires", "SharedArrays", "SparseArrays", "StaticArrays", "WoodburyMatrices"]
@@ -575,6 +613,8 @@ version = "1.4.0"
 
 =======
 >>>>>>> begin scale model analysis
+=======
+>>>>>>> ScaleAnalysis
 [[deps.IteratorInterfaceExtensions]]
 git-tree-sha1 = "a3f24677c21f5bbe9d2a714f95dcd58337fb2856"
 uuid = "82899510-4779-5014-852e-03e436cf321d"
@@ -878,6 +918,7 @@ git-tree-sha1 = "f6e9dba33f9f2c44e08a020b0caf6903be540004"
 uuid = "458c3c95-2e84-50aa-8efc-19380b2a3a95"
 version = "1.1.19+0"
 
+<<<<<<< HEAD
 <<<<<<< refs/remotes/Upstream/main
 [[deps.OpenSpecFun_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "Libdl", "Pkg"]
@@ -893,11 +934,14 @@ version = "1.3.2+0"
 
 =======
 >>>>>>> begin scale model analysis
+=======
+>>>>>>> ScaleAnalysis
 [[deps.OrderedCollections]]
 git-tree-sha1 = "85f8e6578bf1f9ee0d11e7bb1b1456435479d47c"
 uuid = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 version = "1.4.1"
 
+<<<<<<< HEAD
 <<<<<<< refs/remotes/Upstream/main
 [[deps.PCRE2_jll]]
 deps = ["Artifacts", "Libdl"]
@@ -930,6 +974,8 @@ version = "0.5.11"
 
 =======
 >>>>>>> begin scale model analysis
+=======
+>>>>>>> ScaleAnalysis
 [[deps.Parsers]]
 deps = ["Dates", "SnoopPrecompile"]
 git-tree-sha1 = "8175fc2b118a3755113c8e68084dc1a9e63c61ee"
@@ -947,6 +993,7 @@ deps = ["Artifacts", "Dates", "Downloads", "LibGit2", "Libdl", "Logging", "Markd
 uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 version = "1.8.0"
 
+<<<<<<< HEAD
 <<<<<<< refs/remotes/Upstream/main
 [[deps.PkgVersion]]
 deps = ["Pkg"]
@@ -967,6 +1014,8 @@ version = "0.1.2"
 
 =======
 >>>>>>> begin scale model analysis
+=======
+>>>>>>> ScaleAnalysis
 [[deps.PooledArrays]]
 deps = ["DataAPI", "Future"]
 git-tree-sha1 = "a6062fe4063cdafe78f4a0a81cfffb89721b30e7"
@@ -1083,6 +1132,7 @@ version = "0.4.0+0"
 uuid = "ea8e919c-243c-51af-8825-aaa63cd721ce"
 version = "0.7.0"
 
+<<<<<<< HEAD
 <<<<<<< refs/remotes/Upstream/main
 [[deps.SIMD]]
 deps = ["SnoopPrecompile"]
@@ -1108,12 +1158,17 @@ git-tree-sha1 = "77d3c4726515dca71f6d80fbb5e251088defe305"
 uuid = "91c51154-3ec4-41a3-a24f-3f23e20d615c"
 version = "1.3.18"
 =======
+=======
+>>>>>>> ScaleAnalysis
 [[deps.SentinelArrays]]
 deps = ["Dates", "Random"]
 git-tree-sha1 = "c02bd3c9c3fc8463d3591a62a378f90d2d8ab0f3"
 uuid = "91c51154-3ec4-41a3-a24f-3f23e20d615c"
 version = "1.3.17"
+<<<<<<< HEAD
 >>>>>>> begin scale model analysis
+=======
+>>>>>>> ScaleAnalysis
 
 [[deps.Serialization]]
 uuid = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
@@ -1308,6 +1363,7 @@ uuid = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 [[deps.Unicode]]
 uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 
+<<<<<<< HEAD
 <<<<<<< refs/remotes/Upstream/main
 [[deps.UnicodeFun]]
 deps = ["REPL"]
@@ -1329,12 +1385,15 @@ version = "1.25.0+0"
 
 =======
 >>>>>>> begin scale model analysis
+=======
+>>>>>>> ScaleAnalysis
 [[deps.WeakRefStrings]]
 deps = ["DataAPI", "InlineStrings", "Parsers"]
 git-tree-sha1 = "b1be2855ed9ed8eac54e5caff2afcdb442d52c23"
 uuid = "ea10d353-3f73-51f8-a26c-33c1cb351aa5"
 version = "1.4.2"
 
+<<<<<<< HEAD
 <<<<<<< refs/remotes/Upstream/main
 [[deps.WoodburyMatrices]]
 deps = ["LinearAlgebra", "SparseArrays"]
@@ -1344,11 +1403,14 @@ version = "0.5.5"
 
 =======
 >>>>>>> begin scale model analysis
+=======
+>>>>>>> ScaleAnalysis
 [[deps.WorkerUtilities]]
 git-tree-sha1 = "cd1659ba0d57b71a464a29e64dbc67cfe83d54e7"
 uuid = "76eceee3-57b5-4d4a-8e66-0e911cebbf60"
 version = "1.6.1"
 
+<<<<<<< HEAD
 <<<<<<< refs/remotes/Upstream/main
 [[deps.XML2_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Libiconv_jll", "Pkg", "Zlib_jll"]
@@ -1490,6 +1552,8 @@ version = "1.4.0+3"
 
 =======
 >>>>>>> begin scale model analysis
+=======
+>>>>>>> ScaleAnalysis
 [[deps.Zlib_jll]]
 deps = ["Libdl"]
 uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
